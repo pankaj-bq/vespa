@@ -1,0 +1,460 @@
+schema firmographics {
+  struct companyvariablesmostrecent_struct {
+        field bq_closed_by_pbgc_ind type bool { }
+        field bq_no_filings_prev_2_yrs_ind type bool { }
+        field bq_closed_all_plans_ind type bool { }
+        field bq_current_employees_plan_mr type long { }
+        field bq_current_employees_plan_seasonal_mr type long { }
+        field bq_tot_contrib_pens_amt_a_mr type double { }
+        field bq_tot_contrib_pens_amt_a_seasonal_mr type double { }
+        field bq_tot_contrib_per_emp_curr_a_mr type double { }
+        field bq_profit_plan_no_co_contribs_ind_mr type bool { }
+        field bq_no_co_contribs_ind_mr type bool { }
+        field bq_no_tot_contribs_ind_mr type bool { }
+        field bq_pens_negative_contrib_ind_mr type bool { }
+        field bq_net_assets_pens_eoy_mr type double { }
+        field bq_partic_all_welf_eoy_mr type long { }
+        field bq_partic_all_pens_eoy_mr type long { }
+        field bq_partic_all_pens_eoy_per_emp_mr type double { }
+        field bq_emp_curr_pens_eoy_ct_mr type long { }
+        field bq_emp_all_pens_eoy_ct_mr type long { }
+        field bq_partic_curr_welf_eoy_ct_mr type long { }
+        field bq_partic_all_welf_eoy_ct_mr type long { }
+        field bq_co_contrib_pens_amt_a_mr type double { }
+        field bq_co_contrib_welf_amt_a_mr type double { }
+        field bq_emp_contrib_pens_amt_a_mr type double { }
+        field bq_emp_contrib_welf_amt_a_mr type double { }
+        field bq_pens_plan_asset_per_partic_mr type double { }
+        field bq_co_contrib_per_emp_curr_a_mr type double { }
+        field bq_emp_contrib_per_emp_curr_a_mr type double { }
+        field bq_co_contrib_per_partic_a_mr type double { }
+        field bq_emp_contrib_per_partic_a_mr type double { }
+        field bq_health_insurance_raw_ind_mr type bool { }
+        field bq_health_insurance_ind_mr type bool { }
+        field bq_dental_insurance_ind_mr type bool { }
+        field bq_vision_insurance_ind_mr type bool { }
+        field bq_life_insurance_ind_mr type bool { }
+        field bq_long_term_dis_insurance_ind_mr type bool { }
+        field bq_defined_contrib_pens_ind_mr type bool { }
+        field bq_defined_benefit_pens_ind_mr type bool { }
+        field bq_profit_sharing_ind_mr type bool { }
+        field bq_no_profit_sharing_ind_mr type bool { }
+        field bq_code_section_401k_ind_mr type bool { }
+        field bq_stock_bonus_ind_mr type bool { }
+        field bq_fail_trans_contrib_welf_ind_mr type bool { }
+        field bq_fail_trans_contrib_pens_ind_mr type bool { }
+        field bq_fail_trans_contrib_any_ind_mr type bool { }
+        field bq_fail_provide_benf_due_pens_ind_mr type bool { }
+        field bq_fail_provide_benf_due_welf_ind_mr type bool { }
+        field bq_fail_provide_benf_due_any_ind_mr type bool { }
+        field bq_vol_delinquent_filer_pgrm_ind_mr type bool { }
+        field bq_amended_ind_mr type bool { }
+        field bq_comp_contribute_pens_ind_mr type bool { }
+        field bq_target_benefit_plan_ind_mr type bool { }
+        field bq_money_purchase_plan_ind_mr type bool { }
+        field bq_temp_disability_insurance_ind_mr type bool { }
+        field bq_supp_unemploy_ins_ind_mr type bool { }
+        field bq_death_benefits_ind_mr type bool { }
+        field bq_prepaid_legal_ind_mr type bool { }
+        field bq_scholarship_funded_ind_mr type bool { }
+        field bq_severance_pay_ind_mr type bool { }
+        field bq_apprentice_and_training_ind_mr type bool { }
+        field bq_plan_ins_fdlty_bond_ind_mr type bool { }
+        field bq_final_filing_pens_ind_mr type bool { }
+        field bq_final_filing_any_ind_mr type bool { }
+        field bq_terminate_any_ind_mr type bool { }
+        field bq_terminate_pens_ind_mr type bool { }
+        field bq_ez_only_ind_mr type bool { }
+        field bq_pens_only_ind_mr type bool { }
+        field bq_welf_only_ind_mr type bool { }
+        field bq_welf_ez_only_ind_mr type bool { }
+        field bq_welf_plans_ct_mr type long { }
+        field bq_pens_plans_ct_mr type long { }
+        field bq_tot_plans_ct_mr type long { }
+        field bq_comp_merger_ein_acqing_ind_mr type bool { }
+        field bq_sf_active_employees_mr type long { }
+        field bq_matching_contrib_rate_mr type double { }
+        field bq_savings_score_mr type double { }
+        field bq_welfare_score_mr type double { }
+        field bq_retirement_score_mr type double { }
+        field bq_credit_score_mr type double { }
+        field bq_benefits_score_mr type double { }
+        field bq_smb_prob_default_mr type double { }
+        field bq_smb_default_score_mr type double { }
+        field bq_revenue_mr type double { }
+        field bq_ebitda_mr type double { }
+        field bq_cor_mr type double { }
+        field bq_net_income_mr type double { }
+        field bq_gross_profit_mr type double { }
+        field bq_total_assets_mr type double { }
+        field bq_payroll_mr type double { }
+        field bq_operating_expenses_mr type double { }
+        field bq_operating_income_mr type double { }
+        field bq_tax_and_interest_mr type double { }
+        field bq_gross_profit_margin_mr type double { }
+        field bq_ebitda_margin_mr type double { }
+        field bq_asset_turnover_mr type double { }
+        field bq_net_profit_margin_mr type double { }
+        field bq_return_on_assets_mr type double { }
+        field bq_return_on_sales_mr type double { }
+        field bq_revenue_mr_per_emp type double { }
+        field bq_ebitda_mr_per_emp type double { }
+        field bq_cor_mr_per_emp type double { }
+        field bq_net_income_mr_per_emp type double { }
+        field bq_gross_profit_mr_per_emp type double { }
+        field bq_total_assets_mr_per_emp type double { }
+        field bq_payroll_mr_per_emp type double { }
+        field bq_operating_expenses_mr_per_emp type double { }
+        field bq_operating_income_mr_per_emp type double { }
+        field bq_tax_and_interest_mr_per_emp type double { }
+        field bq_report_date_mr type string { }
+        field bq_revenue_growth_yoy_mr type double { }
+        field bq_current_employees_plan_growth_yoy_mr type double { }
+        field bq_revenue_growth_quarterly_yoy_mr type double { }
+        field bq_current_employees_plan_growth_quarterly_yoy_mr type double { }
+        field bq_current_employees_plan_growth_monthly_yoy_mr type double { }
+        field bq_revenue_growth_qoq_mr type double { }
+        field bq_current_employees_plan_growth_qoq_mr type double { }
+        field bq_current_employees_plan_growth_mom_mr type double { }
+  }
+  document firmographics inherits organizations {
+    field bq_company_ein type string {
+      indexing: attribute
+      attribute: fast-search
+    }
+    field bq_company_eins_related type array<string> {
+      indexing: attribute
+    }
+    field bq_company_name type string {
+      indexing: index | summary | attribute
+      attribute {
+        fast-search
+        fast-access
+       }
+       index: enable-bm25
+    }
+    field bq_company_legal_name type string {
+      indexing: index | summary | attribute
+      attribute {
+        fast-search
+        fast-access
+       }
+       index: enable-bm25
+    }
+    field bq_company_commonly_known_as_name type string {
+      indexing: index | summary | attribute
+      attribute {
+        fast-search
+        fast-access
+       }
+       index: enable-bm25
+    }
+    field bq_company_name_short type string {
+      indexing: index | attribute
+      attribute {
+        fast-search
+        fast-access
+       }
+       index: enable-bm25
+    }
+    field bq_company_legal_name_expanded type string {
+      indexing: index | summary | attribute
+    }
+    field bq_company_isactive type bool {
+      indexing: attribute
+    }
+    field bq_company_type type string {
+      indexing: attribute
+    }
+    field bq_company_lfo type string {
+      indexing: attribute
+    }
+    field bq_company_structure type string {
+      indexing: attribute
+    }
+    field bq_business_code type string {
+      indexing: attribute
+    }
+    field bq_business_codes_all type array<string> {
+      indexing: attribute
+    }
+    field bq_industry_name type string {
+      indexing: summary | attribute
+    }
+    field bq_industry_names_all type array<string> {
+      indexing: summary | attribute
+    }
+    field bq_subsector_code type string {
+      indexing: attribute
+    }
+    field bq_subsector_name type string {
+      indexing: summary | attribute
+    }
+    field bq_sector_code type string {
+      indexing: attribute
+    }
+    field bq_sector_name type string {
+      indexing: attribute
+    }
+    field bq_naics_code type string {
+      indexing: attribute
+    }
+    field bq_naics_description type string {
+      indexing: summary | attribute
+    }
+    field bq_sic_code type string {
+      indexing: attribute
+    }
+    field bq_sic_description type string {
+      indexing: summary | attribute
+    }
+    field bq_gics_code type string {
+      indexing: attribute
+    }
+    field bq_gics_description type string {
+      indexing: summary | attribute
+    }
+    field bq_sic_sector_code type string {
+      indexing: attribute
+    }
+    field bq_sic_sector_name type string {
+      indexing: summary | attribute
+    }
+    field bq_naics_sector_code type string {
+      indexing: attribute
+    }
+    field bq_naics_sector_name type string {
+      indexing: index | attribute
+    }
+    field bq_company_address1_line_1 type string {
+      indexing: index | attribute
+    }
+    field bq_company_address1_line_2 type string {
+      indexing: index | summary | attribute
+    }
+    field bq_company_address1_city type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_address1_state type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_address1_state_name type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_address1_county_fips type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_address1_county_name type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_fgn_address1_cntry type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_address1_zip5 type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_address1_zip9 type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_company_address1_zip_type type string {
+      indexing: attribute
+    }
+    field bq_company_address1_secondary_number type string {
+      indexing: attribute
+    }
+    field bq_company_address1_building_default_indicator type string {
+      indexing: attribute
+    }
+    field bq_company_address1_location type position {
+      indexing: attribute
+    }
+    field bq_company_address1_summary type string {
+      indexing: attribute
+    }
+    field bq_company_address1_rdi type string {
+      indexing: attribute
+    }
+    field bq_company_address1_dpv_match_code type string {
+      indexing: attribute
+    }
+    field bq_company_address1_cbsa_code type string {
+      indexing: attribute
+    }
+    field bq_company_address1_cbsa_name type string {
+      indexing: attribute
+    }
+    field bq_company_address1_cbsa_type type string {
+      indexing: attribute
+    }
+    field bq_comp_most_recent_plan_date type long {
+      indexing: attribute
+    }
+    field bq_comp_most_recent_filing_date type long {
+      indexing: attribute
+    }
+    field bq_mths_since_latest_pens_file type int {
+      indexing: attribute
+    }
+    field bq_mths_since_latest_welf_file type int {
+      indexing: attribute
+    }
+    field bq_mths_since_latest_plan_file type int {
+      indexing: attribute
+    }
+    field bq_age_oldest_plan type int {
+      indexing: attribute
+    }
+    field bq_company_contact_name type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_small_company_ind type bool {
+      indexing: attribute
+    }
+    field bq_non_profit_indicator type bool {
+      indexing: attribute
+    }
+    field bq_non_company_indicator type bool {
+      indexing: attribute
+    }
+    field bq_multiple_employer_filer_indicator type bool {
+      indexing: attribute
+    }
+    field bq_no_benefits_indicator type bool {
+      indexing: attribute
+    }
+    field bq_public_indicator type bool {
+      indexing: attribute
+    }
+    field bq_sp500_indicator type bool {
+      indexing: attribute
+    }
+    field bq_ticker type string {
+      indexing: index | attribute | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+    }
+    field bq_ticker_parent type string {
+      indexing: attribute
+    }
+    field bq_ticker_classes type string {
+      indexing: index | summary | attribute
+    }
+    field bq_cik type string {
+      indexing: attribute | index | summary
+      attribute {
+        fast-search
+        fast-access
+      }
+      index: enable-bm25
+    }
+    field bq_cusips type string {
+      indexing: attribute
+    }
+    field bq_year_founded type int {
+      indexing: attribute
+    }
+    field bq_confidence_score type int {
+      indexing: attribute
+    }
+    field bq_confidence_score_industry_adjusted type int {
+      indexing: attribute
+    }
+    field bq_address_id type string {
+      indexing: attribute
+    }
+    field bq_score type double {
+      indexing: attribute
+    }
+    field companyvariablesmostrecent type companyvariablesmostrecent_struct {
+      indexing: summary
+    }
+  }
+  fieldset default {
+    fields: bq_id, bq_company_legal_name, bq_company_commonly_known_as_name, bq_legal_entity_id, bq_organization_id, bq_ticker, bq_cik, bq_company_address1_line_1, bq_company_address1_line_2, bq_company_address1_city, bq_company_address1_county_fips, bq_company_address1_county_name, bq_company_address1_state, bq_company_address1_state_name, bq_company_address1_zip5, bq_company_address1_zip9, bq_company_contact_name, bq_company_fgn_address1_cntry
+  }
+  rank-profile default {
+    first-phase {
+        expression: nativeRank(bq_ticker, bq_company_legal_name, bq_company_commonly_known_as_name, bq_company_contact_name, bq_company_address1_line_1, bq_company_address1_line_2, bq_company_address1_city)
+    }
+  }
+  rank-profile bm25 inherits default {
+    first-phase {
+        expression: bm25(bq_company_legal_name) + bm25(bq_company_commonly_known_as_name) + bm25(bq_company_contact_name)
+    }
+  }
+  document-summary quick {
+    summary bq_id type string {  }
+    summary bq_company_legal_name type string {  }
+    summary bq_company_commonly_known_as_name type string {  }
+    summary bq_legal_entity_id type string {  }
+    summary bq_organization_id type string {  }
+    summary bq_company_lfo type string {  }
+    summary bq_ticker type string {  }
+    summary bq_cik type string {  }
+    summary bq_company_address1_line_1 type string {  }
+    summary bq_company_address1_line_2 type string {  }
+    summary bq_company_address1_city type string {  }
+    summary bq_company_address1_county_name type string {  }
+    summary bq_company_address1_state type string {  }
+    summary bq_company_address1_state_name type string {  }
+    summary bq_company_address1_zip5 type string {  }
+    summary bq_company_address1_zip9 type string {  }
+    summary bq_company_fgn_address1_cntry type string {  }
+    summary bq_company_contact_name type string {  }
+    summary bq_year_founded type int {  }
+    summary bq_company_isactive type bool {  }
+    summary bq_industry_name type string {  }
+    summary bq_subsector_name type string {  }
+    summary bq_naics_description type string {  }
+    summary bq_sic_description type string {  }
+    summary bq_sic_sector_name type string {  }
+    summary companyvariablesmostrecent type companyvariablesmostrecent_struct {  }
+  }
+}

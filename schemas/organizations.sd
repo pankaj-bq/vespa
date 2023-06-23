@@ -1,0 +1,27 @@
+schema organizations {
+  document organizations {
+    field bq_organization_id type string {
+      indexing: attribute | summary | index
+      attribute {
+        fast-search
+        fast-access
+       }
+    }
+
+    field bq_legal_entity_id type string {
+      indexing: attribute | summary | index
+      attribute {
+        fast-search
+        fast-access
+       }
+    }
+
+    field bq_id type string {
+      indexing: attribute | summary | index
+      attribute {
+        fast-search
+        fast-access
+       }
+    }
+  }
+}
